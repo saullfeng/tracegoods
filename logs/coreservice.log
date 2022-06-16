@@ -1,0 +1,76 @@
+2021-07-08 12:44:01.534  INFO 30684 --- [restartedMain] com.jmtc.tracegoods.MainApplication      : Starting MainApplication on DESKTOP-4L4OMHA with PID 30684 (C:\Users\solfeng\Desktop\0525\tracegoods060803\target\classes started by solfeng in C:\Users\solfeng\Desktop\0525\tracegoods060803)
+2021-07-08 12:44:01.544  INFO 30684 --- [restartedMain] com.jmtc.tracegoods.MainApplication      : No active profile set, falling back to default profiles: default
+2021-07-08 12:44:01.872  INFO 30684 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@22e82eda: startup date [Thu Jul 08 12:44:01 CST 2021]; root of context hierarchy
+2021-07-08 12:44:04.178  INFO 30684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8019 (http)
+2021-07-08 12:44:04.201  INFO 30684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-08 12:44:04.202  INFO 30684 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2021-07-08 12:44:04.209  INFO 30684 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_212\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Go\bin;E:\solidity05;C:\Program Files\Geth;C:\Program Files\Geth\geth.exe;C:\Program Files\Java\jdk1.8.0_212\bin;D:\mysql-8.0.11-winx64\bin;D:\linux\vmware.exe;D:\epirus-1.3.0\bin;F:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Google\Chrome\Application;C:\OpenSSL-Win64\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\nodejs\;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Users\solfeng\AppData\Local\Microsoft\WindowsApps;F:\Microsoft VS Code\bin;D:\IntelliJ IDEA 2020.3.2\bin;D:\GoLand 2021.1.1\bin;C:\Users\solfeng\AppData\Roaming\nvm;C:\Users\solfeng\AppData\Roaming\npm;.]
+2021-07-08 12:44:04.302  INFO 30684 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-08 12:44:04.424  INFO 30684 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-07-08 12:44:04.428  INFO 30684 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-07-08 12:44:04.428  INFO 30684 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-07-08 12:44:04.429  INFO 30684 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-07-08 12:44:04.429  INFO 30684 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-07-08 12:44:04.429  INFO 30684 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+2021-07-08 12:44:09.089  INFO 30684 --- [restartedMain] c.j.t.antchain.TrackGoodsChainApi        : set transport : com.alipay.mychain.sdk.network.netty.TcpClientTransport
+2021-07-08 12:44:09.090  INFO 30684 --- [restartedMain] c.j.t.antchain.TrackGoodsChainApi        : channel start ...
+2021-07-08 12:44:09.099  INFO 30684 --- [restartedMain] c.j.t.antchain.TrackGoodsChainApi        : connect, address:47.103.163.48:18130, timeout:3000
+2021-07-08 12:44:09.815  INFO 30684 --- [restartedMain] c.j.t.antchain.TrackGoodsChainApi        : channel connect 005056fffec00001-000077dc-00000000-36d95cd22de7a83b-d26cba6b, 
+2021-07-08 12:44:09.815  INFO 30684 --- [restartedMain] c.j.t.antchain.TrackGoodsChainApi        : connect to 47.103.163.48:18130, async, success
+2021-07-08 12:44:09.815  INFO 30684 --- [restartedMain] c.j.t.antchain.TrackGoodsChainApi        : handshake, start timeout:3000
+2021-07-08 12:44:10.784  WARN 30684 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-07-08 12:44:11.252  INFO 30684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-07-08 12:44:11.306  INFO 30684 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-07-08 12:44:11.315  INFO 30684 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2021-07-08 12:44:11.316  INFO 30684 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-07-08 12:44:11.354  INFO 30684 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-07-08 12:44:11.371  INFO 30684 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-07-08 12:44:11.658  INFO 30684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8019 (http) with context path ''
+2021-07-08 12:44:11.661  INFO 30684 --- [restartedMain] com.jmtc.tracegoods.MainApplication      : Started MainApplication in 10.576 seconds (JVM running for 11.309)
+2021-07-08 12:44:11.719  INFO 30684 --- [http-nio-8019-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-07-08 12:44:13.040  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":1,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:44:13.067  INFO 30684 --- [msgProcessor-thread-1] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":1,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:44:18.949  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":2,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:44:18.977  INFO 30684 --- [msgProcessor-thread-2] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":2,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:44:24.959  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":3,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:44:24.985  INFO 30684 --- [msgProcessor-thread-3] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":3,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:44:30.946  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":4,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:44:30.972  INFO 30684 --- [msgProcessor-thread-0] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":4,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:44:36.949  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":5,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:44:36.976  INFO 30684 --- [msgProcessor-thread-1] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":5,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:44:42.951  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":6,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:44:42.987  INFO 30684 --- [msgProcessor-thread-2] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":6,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:44:48.957  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":7,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:44:48.983  INFO 30684 --- [msgProcessor-thread-3] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":7,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:44:54.954  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":8,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:44:54.981  INFO 30684 --- [msgProcessor-thread-0] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":8,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:45:00.953  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":9,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:45:00.983  INFO 30684 --- [msgProcessor-thread-1] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":9,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:45:06.952  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":10,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:45:06.981  INFO 30684 --- [msgProcessor-thread-2] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":10,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:45:13.052  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":11,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:45:13.078  INFO 30684 --- [msgProcessor-thread-3] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":11,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:45:18.948  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":12,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:45:18.974  INFO 30684 --- [msgProcessor-thread-0] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":12,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:45:24.946  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":13,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:45:24.971  INFO 30684 --- [msgProcessor-thread-1] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":13,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:45:30.948  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":14,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:45:30.974  INFO 30684 --- [msgProcessor-thread-2] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":14,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:45:37.053  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":15,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:45:37.081  INFO 30684 --- [msgProcessor-thread-3] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":15,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:45:42.947  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":16,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:45:42.972  INFO 30684 --- [msgProcessor-thread-0] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":16,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:45:48.951  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":17,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:45:48.976  INFO 30684 --- [msgProcessor-thread-1] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":17,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:45:54.948  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":18,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:45:54.974  INFO 30684 --- [msgProcessor-thread-2] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":18,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:46:00.958  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":19,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:46:00.985  INFO 30684 --- [msgProcessor-thread-3] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":19,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:46:06.958  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":20,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:46:06.984  INFO 30684 --- [msgProcessor-thread-0] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":20,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:46:12.952  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":21,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:46:12.980  INFO 30684 --- [msgProcessor-thread-1] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":21,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:46:18.944  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":22,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:46:18.973  INFO 30684 --- [msgProcessor-thread-2] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":22,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-08 12:46:24.948  INFO 30684 --- [TimerTaskManager-thread-0] c.j.t.antchain.TrackGoodsChainApi        : sendRequest, message:{"sequence":23,"msg_name":"heartbeat","msg_type":998}
+2021-07-08 12:46:24.975  INFO 30684 --- [msgProcessor-thread-3] c.j.t.antchain.TrackGoodsChainApi        : processMsg, message:{"sequence":23,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
